@@ -105,7 +105,7 @@ For users who leverage PDBs to prevent data-loss, the solution is unsafe (racey
 as described in https://github.com/kubernetes/kubernetes/pull/105296#issuecomment-929209150) and
 arguably uses the API in a way it was not designed for.
 
-The first use-case if the primary goal of PDBs, but feedback suggests that a sufficient
+The first use-case is the primary goal of PDBs, but feedback suggests that a sufficient
 number of users are leveraging PDBs for the second use-case that changing the behavior
 in a way that doesn't support this use-case is not an option. In particular, as Kubernetes
 doesn't provide any alternatives solutions for this problem.
